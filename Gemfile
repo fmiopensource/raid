@@ -6,6 +6,7 @@ gem 'rails', '3.0.0.beta4'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -14,7 +15,13 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug'
+ #gem 'ruby-debug19'
+
+ gem 'rspec', '2.0.0.beta.12'
+ gem 'authlogic', :git => 'http://github.com/odorcicd/authlogic.git', :branch => 'rails3'
+ gem 'bluecloth', '2.0.7'
+ gem 'gravtastic'
+ gem 'rspec-rails', '2.0.0.beta.12'
 
 # Bundle the extra gems:
 # gem 'bj'
@@ -27,3 +34,4 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :test do
 #   gem 'webrat'
 # end
+
