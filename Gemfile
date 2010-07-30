@@ -23,6 +23,7 @@ gem 'mysql'
  gem 'gravtastic'
  gem 'rspec-rails', '>=2.0.0.beta.17'
 
+ gem 'factory_girl_rails'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri', '1.4.1'
