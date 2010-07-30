@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0.beta4'
+gem 'rails', '3.0.0.rc'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -17,11 +17,11 @@ gem 'mysql'
 # To use debugger
  #gem 'ruby-debug19'
 
- gem 'rspec', '2.0.0.beta.12'
+ gem 'rspec', '>=2.0.0.beta.17'
  gem 'authlogic', :git => 'http://github.com/odorcicd/authlogic.git', :branch => 'rails3'
  gem 'bluecloth', '2.0.7'
  gem 'gravtastic'
- gem 'rspec-rails', '2.0.0.beta.12'
+ gem 'rspec-rails', '>=2.0.0.beta.17'
 
 # Bundle the extra gems:
 # gem 'bj'
